@@ -53,6 +53,13 @@ No backend or database is required — all data is stored temporarily in the bro
 
 ---
 
+## Screenshots
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/9d20b4b4-b722-4c6e-bf37-c7c49b049dd8" />
+<img width="947" alt="image" src="https://github.com/user-attachments/assets/9b97dca7-9a11-4b7b-9831-c8618d282968" />
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/9f84b7ee-9c8f-48ba-b0ed-9148e2087a4b" />
+
+
+
 ## How to Customize
 
 - Add your own dummy stories or change story limits in `script.js`.
