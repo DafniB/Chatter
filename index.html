@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Story Connect</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📚 Story Connect</h1>
+
+  <section class="share">
+    <textarea id="storyInput" placeholder="Share your experience..."></textarea>
+    <button onclick="postStory()">Post Story</button>
+  </section>
+
+  <section id="storyFeed" class="stories">
+    <!-- Stories will be inserted here -->
+  </section>
+
+  <div id="chatModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeChat()">&times;</span>
+      <h2>Private Chat with <span id="chatUser"></span></h2>
+      <div id="chatBox" class="chat-box"></div>
+      <input type="text" id="chatInput" placeholder="Type a message...">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
